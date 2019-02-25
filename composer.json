@@ -1,0 +1,45 @@
+{
+    "name": "nfourtythree/motivational-kanye",
+    "description": "Quotes to brighten your day from one of the greatest minds of our time",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "motivational kanye",
+        "Kanye West",
+        "quotes"
+    ],
+    "support": {
+        "docs": "https://github.com/nfourtythree/craft3-motivationalkanye/blob/master/README.md",
+        "issues": "https://github.com/nfourtythree/craft3-motivationalkanye/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathaniel Hammond (nfourtythree)",
+            "homepage": "https://n43.me"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "nfourtythree\\motivationalkanye\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Motivational Kanye",
+        "handle": "motivational-kanye",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/nfourtythree/craft3-motivationalkanye/master/CHANGELOG.md",
+        "components": {
+            "motivationalKanyeService": "nfourtythree\\motivationalkanye\\services\\MotivationalKanyeService"
+        },
+        "class": "nfourtythree\\motivationalkanye\\MotivationalKanye"
+    }
+}
